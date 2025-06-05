@@ -30,7 +30,7 @@ public class Startup
         services.AddSwaggerGen(c =>
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "UUID Generator", Version = "v1" });
-            c.AddServer(new OpenApiServer { Url = "https://localhost:44308" });
+            //c.AddServer(new OpenApiServer { Url = "https://localhost:44308" });
         });
     }
 
