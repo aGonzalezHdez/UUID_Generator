@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
         var dnsUUID = "6ba7b810-9dad-11d1-80b4-00c04fd430c8";
-        //prueba de cambio
+        
         var hAWB = "9056377013999";
         var idSdaEnvio = "2222103";
         var combined = hAWB + "&" + idSdaEnvio;
